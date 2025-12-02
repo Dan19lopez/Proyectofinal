@@ -2,7 +2,7 @@
 # Importamos la clase 'conexion' para manejar la conexión a la base de datos#_Repository:
 
     # Constructor de la clase
-    ef __init__(self):
+    def __init__(self):
         # Creamos una instancia de la conexión a la base de datos con los parámetros necesarios
         self.db = conexion(host='localhost', port=3306, user='root', password="", database='book_app')
         # Establecemos la conexión con la base de datos
